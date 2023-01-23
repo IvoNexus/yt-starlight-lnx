@@ -20,7 +20,8 @@ This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg 
     * ``` sudo chmod a+rx /usr/local/bin/youtube-dl ```
 * install ffmpeg
     * ``` sudo apt-get install ffmpeg ```
-* make sure you have "rwx" permissions
+* make sure you have ownership and "rwx" permissions on project folder
+* make script file executable ``` sudo chmod u+x ./yt-starlight.sh ```
 
 ## :pushpin: Legal Notice
 This application was made for testing purposes only and not intended to infringe copyright assets, therefore is compliant with the applicable law. By downloading it end user agrees to take full responsibility of how and where is going to be used and developer cannot be held liable for any loss or damage whatsoever caused by third party actions.
