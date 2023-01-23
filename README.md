@@ -2,19 +2,17 @@
 This is the release repository for Yotube-Starlight, an easy to use youtube-dl and ffmpeg add-on for Windows.
 
 ## :page_facing_up: Description
-This batch script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various  formats, resolutions and bitrates.
+This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various formats, resolutions and bitrates.
 
 ## :pill: Version History
-* 0.2
-    * 07-18-2022 Public Release
-* 0.1
-    * Initial Private Release
+* 0.3
+    * 25-01-2023 Public Release
 
 ## :toolbox: Requirements
 * youtube-dl application is required - [GitHub](https://github.com/ytdl-org/youtube-dl) / [Website](https://youtube-dl.org/)
     * yt-dlp - [GitHub](https://github.com/yt-dlp/yt-dlp)
 * ffmpeg application is required - [GitHub](https://github.com/FFmpeg/FFmpeg) / [Website](https://ffmpeg.org/)
-* Windows OS. (fully tested on Windows 10 and 11)
+* Linux OS. (fully tested on Ubuntu Jammy Jellyfish 22.04 LTS and Kinetic Kudu 22.10 )
 
 ## :wrench: Installation
 * place youtube-dl.exe in ".\core" folder
