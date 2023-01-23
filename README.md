@@ -15,15 +15,18 @@ This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg 
 * Linux OS. (fully tested on Ubuntu Jammy Jellyfish 22.04 LTS and Kinetic Kudu 22.10 )
 
 ## :wrench: Installation
-* place youtube-dl.exe in ".\core" folder
-* place ffmpeg.exe in ".\core" folder
+* install youtube-dl.exe
+    sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+    sudo chmod a+rx /usr/local/bin/youtube-dl
+* install ffmpeg
+    sudo apt-get install ffmpeg
 * make sure you have "rwx" permissions
 
 ## :pushpin: Legal Notice
 This application was made for testing purposes only and not intended to infringe copyright assets, therefore is compliant with the applicable law. By downloading it end user agrees to take full responsibility of how and where is going to be used and developer cannot be held liable for any loss or damage whatsoever caused by third party actions.
 
 ## :pushpin: License 
-    Copyright (C) 2021-2022 Youtube-Starlight
+    Copyright (C) 2021-2023 YT-Starlight
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -46,10 +49,10 @@ This application is provided in plain source code, therefore can be easily modif
 
 Check MD5 and SHA256 checksums via cmd:
 ```
-certutil -hashfile Example.bat MD5
+md5sum Example.sh
 ```
 ```
-certutil -hashfile Example.bat SHA256
+sha256sum Example.sh
 ```
 
 ## :pushpin: Credits
