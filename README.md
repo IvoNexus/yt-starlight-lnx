@@ -1,5 +1,5 @@
 # :dizzy: YT-Starlight (linux edition)
-This is the release repository for Yotube-Starlight, an easy to use youtube-dl and ffmpeg add-on for Windows.
+This is the release repository for YT-Starlight, an easy to use youtube-dl and ffmpeg add-on for Linux.
 
 ## :page_facing_up: Description
 This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various formats, resolutions and bitrates.
