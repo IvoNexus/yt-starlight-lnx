@@ -19,7 +19,7 @@ This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg 
     * ``` sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl ```
     * ``` sudo chmod a+rx /usr/local/bin/youtube-dl ```
 * install ffmpeg
-    sudo apt-get install ffmpeg
+    * ``` sudo apt-get install ffmpeg ```
 * make sure you have "rwx" permissions
 
 ## :pushpin: Legal Notice
