@@ -15,7 +15,7 @@ This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg 
 * Linux OS. (fully tested on Ubuntu Jammy Jellyfish 22.04 LTS and Kinetic Kudu 22.10 )
 
 ## :wrench: Installation
-* install youtube-dl.exe
+* install youtube-dl
     * ``` sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl ```
     * ``` sudo chmod a+rx /usr/local/bin/youtube-dl ```
 * install ffmpeg
