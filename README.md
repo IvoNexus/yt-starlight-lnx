@@ -21,7 +21,7 @@ This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg 
 * install ffmpeg
     * ``` sudo apt-get install ffmpeg ```
 * make sure you have ownership and "rwx" permissions on project folder
-* make script file executable ``` sudo chmod u+x ./yt-starlight.sh ```
+* make the script file executable ``` sudo chmod u+x ./yt-starlight.sh ```
 
 ## :pushpin: Legal Notice
 This application was made for testing purposes only and not intended to infringe copyright assets, therefore is compliant with the applicable law. By downloading it end user agrees to take full responsibility of how and where is going to be used and developer cannot be held liable for any loss or damage whatsoever caused by third party actions.
@@ -47,6 +47,7 @@ This application is provided in plain source code, therefore can be easily modif
 * Always download from the official release repo/s.
 * Always check the [MD5](https://en.wikipedia.org/wiki/MD5) and/or [SHA256](https://en.wikipedia.org/wiki/SHA-2) checksums of downloaded files.
 * This application will never ask you for Admin/SU privileges.
+    * However to update the fork, super user privileges are required.
 
 Check MD5 and SHA256 checksums via cmd:
 ```
