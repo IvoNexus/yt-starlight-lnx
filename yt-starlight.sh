@@ -35,7 +35,7 @@ echo "";
 echo "*Can be a number between 64 and 320.";
 echo "";
 read -p 'Write bitrate: ' if_ffmpeg_cbr;
-ffmpeg_cbr="$if_ffmpeg_cbr"; }
+ffmpeg_cbr="$if_ffmpeg_cbr""k"; }
 fn_ffmpeg_mode() { if [[ "$ffmpeg_mode" == "VBR" ]]; then ffmpeg_mode="CBR"; else ffmpeg_mode="VBR"; fi }
 
 fn_ytdl_updt() { $super_user $fork -U; }
