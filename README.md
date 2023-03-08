@@ -5,14 +5,14 @@ This is the release repository for YT-Starlight, an easy to use youtube-dl and f
 This bash script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various formats, resolutions and bitrates.
 
 ## :pill: Version History
-* 0.3
-    * 25-01-2023 Public Release
+* Since it's work in progress, I decided to remove versioning and releases. Just git clone the repo.
 
 ## :toolbox: Requirements
 * youtube-dl application is required - [GitHub](https://github.com/ytdl-org/youtube-dl) / [Website](https://youtube-dl.org/)
     * yt-dlp - [GitHub](https://github.com/yt-dlp/yt-dlp)
 * ffmpeg application is required - [GitHub](https://github.com/FFmpeg/FFmpeg) / [Website](https://ffmpeg.org/)
-* Linux OS. (fully tested on Ubuntu Jammy Jellyfish 22.04 LTS and Kinetic Kudu 22.10 )
+* Linux OS. (fully tested on Ubuntu Jammy Jellyfish 22.04 LTS and Kinetic Kudu 22.10)
+* Linux OS. (fully tested on Debian 11, however youtube-dl require python which Debian is missing by default)
 
 ## :wrench: Installation
 * install youtube-dl
