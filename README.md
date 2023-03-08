@@ -49,7 +49,7 @@ This application is provided in plain source code, therefore can be easily modif
 * This application will never ask you for Admin/SU privileges.
     * However to update the fork, super user privileges are required.
 
-Check MD5 and SHA256 checksums via cmd:
+Check MD5 and SHA256 checksums via shell:
 ```
 md5sum Example.sh
 ```
